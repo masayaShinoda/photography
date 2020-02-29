@@ -22,8 +22,11 @@ import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 
 import thumbp01 from '../assets/images/thumbs/p01.jpg'
+import thumbp02 from '../assets/images/thumbs/p02.jpg'
 
 import fullp01 from '../assets/images/fulls/p01.jpg'
+import fullp02 from '../assets/images/fulls/p02.jpg'
+
 
 
 
@@ -41,6 +44,7 @@ const DEFAULT_IMAGES = [
 
 const PORTRAIT_IMAGES = [
     { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
+    { id: 'p2', source: fullp02, thumbnail: thumbp02, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
