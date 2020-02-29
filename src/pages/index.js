@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+
+//landscape imports
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
 import thumb03 from '../assets/images/thumbs/03.jpg'
@@ -21,11 +23,17 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 
+
+// portrait imports
 import thumbp01 from '../assets/images/thumbs/p01.jpg'
 import thumbp02 from '../assets/images/thumbs/p02.jpg'
+import thumbp03 from '../assets/images/thumbs/p03.jpg'
+import thumbp04 from '../assets/images/thumbs/p04.jpg'
 
 import fullp01 from '../assets/images/fulls/p01.jpg'
 import fullp02 from '../assets/images/fulls/p02.jpg'
+import fullp03 from '../assets/images/fulls/p03.jpg'
+import fullp04 from '../assets/images/fulls/p04.jpg'
 
 
 
@@ -45,6 +53,8 @@ const DEFAULT_IMAGES = [
 const PORTRAIT_IMAGES = [
     { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
     { id: 'p2', source: fullp02, thumbnail: thumbp02, caption: '', description: ''},
+    { id: 'p3', source: fullp03, thumbnail: thumbp03, caption: '', description: ''},
+    { id: 'p4', source: fullp02, thumbnail: thumbp04, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
@@ -68,7 +78,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>Welcome to my site! Below you can find some of my works.
                             <br></br>
-                            Capturing photos of beautiful people and beautiful scenery have always brought me joy.
+                            Capturing photos of beautiful<a href="#landscapes"> people</a> and beautiful <a href="#portraits">scenery</a> have always brought me joy.
                             <br></br>
                             Below, in no particular photo, are some of my favorite shots. Hope you like them!
                         </p>
@@ -78,7 +88,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="two">
-                        <h2>Landscapes</h2>
+                        <h2 id="landscapes">Landscapes</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
@@ -93,7 +103,7 @@ class HomeIndex extends React.Component {
 
                         {/* masaya code, portrait shots */}
                         <br></br>
-                        <h2>Portraits</h2>
+                        <h2 id="portraits">Portraits</h2>
 
                         <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
