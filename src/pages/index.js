@@ -11,6 +11,7 @@ import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
+import thumb07 from '../assets/images/thumbs/07.jpg'
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -18,20 +19,25 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+import full07 from '../assets/images/fulls/07.jpg'
+
+
+import MyForm from '../components/myform'
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: full01, thumbnail: thumb01, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', source: full02, thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '3', source: full03, thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', source: full04, thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '1', source: full01, thumbnail: thumb01, caption: 'Peace', description: 'Kamakura Big Buddha, Yokohama, Japan.'},
+    { id: '2', source: full02, thumbnail: thumb02, caption: 'Harmony', description: 'Kamakura Big Buddha, Yokohama, Japan.'},
+    { id: '3', source: full03, thumbnail: thumb03, caption: 'Tranquility', description: 'Kompot, Cambodia.'},
+    { id: '4', source: full04, thumbnail: thumb04, caption: 'Heroic', description: 'Kep, Cambodia.'},
+    { id: '5', source: full05, thumbnail: thumb05, caption: 'Seas', description: 'Kep, Cambodia.'},
+    { id: '6', source: full06, thumbnail: thumb06, caption: 'Gates', description: 'Angkor Thom, Siem Reap, Cambodia.'},
+    { id: '7', source: full07, thumbnail: thumb07, caption: 'Magnificent', description: 'Angkor Wat, Siem Reap, Cambodia.'}
 ];
 
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "Masaya Photography"
         const siteDescription = "Site description"
 
         return (
@@ -45,17 +51,21 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
+                            <h2>Photographer based in Phnom Penh, Cambodia.</h2>
                         </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
+                        <p>Welcome to my site! Below you can find some of my works.
+                            <br></br>
+                            Capturing photos of beautiful people and beautiful scenery have always brought me joy.
+                            <br></br>
+                            Below, in no particular photo, are some of my favorite shots. Hope you like them!
+                        </p>
                         <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
+                            {/*<li><a href="#" className="button">Learn More</a></li>*/}
                         </ul>
                     </section>
 
                     <section id="two">
-                        <h2>Recent Work</h2>
+                        <h2>Landscapes</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
@@ -64,42 +74,45 @@ class HomeIndex extends React.Component {
                             description
                         }))} />
 
-                        <ul className="actions">
+                        {/*<ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
+                        </ul>*/}    
                     </section>
 
                     <section id="three">
                         <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+                        <p>Don't hesitate to leave me a message, we'll discuss ways to work together!</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
-                                <form method="post" action="#">
+                                <MyForm>
+
+                                </MyForm>
+                                {/*<form method="post" action="https://formspree.io/xdozzkeq">
                                     <div className="row uniform 50%">
                                         <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
                                         <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
                                         <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
                                     </div>
-                                </form>
-                                <ul className="actions">
+                                </form>*/}
+                                {/*<ul className="actions">
                                     <li><input type="submit" value="Send Message" /></li>
-                                </ul>
+                                </ul>*/}
+
                             </div>
                             <div className="4u 12u$(small)">
                                 <ul className="labeled-icons">
                                     <li>
                                         <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
+                                        Phnom Penh<br />
+                                        Cambodia<br />
                                     </li>
                                     <li>
                                         <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
+                                        +855 96 780 2296
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
+                                        <a href="mailto:masayashida@gmail.com" target="_blank">masayashida@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
