@@ -54,7 +54,7 @@ const PORTRAIT_IMAGES = [
     { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
     { id: 'p2', source: fullp02, thumbnail: thumbp02, caption: '', description: ''},
     { id: 'p3', source: fullp03, thumbnail: thumbp03, caption: '', description: ''},
-    { id: 'p4', source: fullp02, thumbnail: thumbp04, caption: '', description: ''},
+    { id: 'p4', source: fullp04, thumbnail: thumbp04, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
@@ -78,7 +78,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>Welcome to my site! Below you can find some of my works.
                             <br></br>
-                            Capturing photos of beautiful<a href="#landscapes"> people</a> and beautiful <a href="#portraits">scenery</a> have always brought me joy.
+                            Capturing photos of beautiful<a href="#portraits"> people</a> and beautiful <a href="#landscapes">scenery</a> have always brought me joy.
                             <br></br>
                             Below, in no particular photo, are some of my favorite shots. Hope you like them!
                         </p>
