@@ -21,6 +21,11 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 
+import thumbp01 from '../assets/images/thumbs/p01.jpg'
+
+import fullp01 from '../assets/images/fulls/p01.jpg'
+
+
 
 import MyForm from '../components/myform'
 
@@ -32,6 +37,10 @@ const DEFAULT_IMAGES = [
     { id: '5', source: full05, thumbnail: thumb05, caption: 'Seas', description: 'Kep, Cambodia.'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Gates', description: 'Angkor Thom, Siem Reap, Cambodia.'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Magnificent', description: 'Angkor Wat, Siem Reap, Cambodia.'}
+];
+
+const PORTRAIT_IMAGES = [
+    { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
@@ -76,7 +85,19 @@ class HomeIndex extends React.Component {
 
                         {/*<ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>*/}    
+                        </ul>*/}
+
+                        {/* masaya code, portrait shots */}
+                        <br></br>
+                        <h2>Portraits</h2>
+
+                        <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
+                            source,
+                            thumbnail,
+                            caption,
+                            description
+                        }))} />
+
                     </section>
 
                     <section id="three">
