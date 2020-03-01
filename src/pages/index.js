@@ -47,17 +47,12 @@ const DEFAULT_IMAGES = [
     { id: '2', source: full02, thumbnail: thumb02, caption: 'Harmony', description: 'Kamakura Big Buddha, Yokohama, Japan.'},
     { id: '3', source: full03, thumbnail: thumb03, caption: 'Tranquility', description: 'Kompot, Cambodia.'},
     { id: '4', source: full04, thumbnail: thumb04, caption: 'Heroic', description: 'Kep, Cambodia.'},
-    { id: '5', source: full05, thumbnail: thumb05, caption: 'Seas', description: 'Kep, Cambodia.'},
-    { id: '6', source: full06, thumbnail: thumb06, caption: 'Gates', description: 'Angkor Thom, Siem Reap, Cambodia.'},
-    { id: '7', source: full07, thumbnail: thumb07, caption: 'Magnificent', description: 'Angkor Wat, Siem Reap, Cambodia.'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Forward', description: 'Kompot, Cambodia.'}
+
 ];
 
 const PORTRAIT_IMAGES = [
     { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
-    { id: 'p2', source: fullp02, thumbnail: thumbp02, caption: '', description: ''},
     { id: 'p3', source: fullp03, thumbnail: thumbp03, caption: '', description: ''},
-    { id: 'p4', source: fullp04, thumbnail: thumbp04, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
@@ -100,9 +95,9 @@ class HomeIndex extends React.Component {
                             description
                         }))} />
 
-                        {/*<ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>*/}
+                        <ul className="actions">
+                            <li><Link to="/landscapes" className="button">See More</Link></li>
+                        </ul>
 
                         {/* masaya code, portrait shots */}
                         <br></br>
@@ -114,6 +109,10 @@ class HomeIndex extends React.Component {
                             caption,
                             description
                         }))} />
+
+                        <ul className="actions">    
+                            <li><Link to="/landscapes" className="button">See More</Link></li>
+                        </ul>
 
                     </section>
 

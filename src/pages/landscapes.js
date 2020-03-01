@@ -26,18 +26,7 @@ import full07 from '../assets/images/fulls/07.jpg'
 import full08 from '../assets/images/fulls/08.jpg'
 
 
-// portrait imports
-import thumbp01 from '../assets/images/thumbs/p01.jpg'
-import thumbp02 from '../assets/images/thumbs/p02.jpg'
-import thumbp03 from '../assets/images/thumbs/p03.jpg'
-import thumbp04 from '../assets/images/thumbs/p04.jpg'
-
-import fullp01 from '../assets/images/fulls/p01.jpg'
-import fullp02 from '../assets/images/fulls/p02.jpg'
-import fullp03 from '../assets/images/fulls/p03.jpg'
-import fullp04 from '../assets/images/fulls/p04.jpg'
-
-// contac me form, formspree.io
+// contact me form, formspree.io
 import MyForm from '../components/myform'
 
 const DEFAULT_IMAGES = [
@@ -49,13 +38,6 @@ const DEFAULT_IMAGES = [
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Gates', description: 'Angkor Thom, Siem Reap, Cambodia.'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Magnificent', description: 'Angkor Wat, Siem Reap, Cambodia.'},
     { id: '8', source: full08, thumbnail: thumb08, caption: 'Forward', description: 'Kompot, Cambodia.'}
-];
-
-const PORTRAIT_IMAGES = [
-    { id: 'p1', source: fullp01, thumbnail: thumbp01, caption: '', description: ''},
-    { id: 'p2', source: fullp02, thumbnail: thumbp02, caption: '', description: ''},
-    { id: 'p3', source: fullp03, thumbnail: thumbp03, caption: '', description: ''},
-    { id: 'p4', source: fullp04, thumbnail: thumbp04, caption: '', description: ''},
 ];
 
 class HomeIndex extends React.Component {
@@ -72,16 +54,20 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <div id="main">
-
+                {/*
                     <section id="one">
+
+
                         <header className="major">
                             <h2>Photographer based in Phnom Penh, Cambodia.</h2>
                         </header>
 
+
                         <ul className="actions">
-                            {/*<li><a href="#" className="button">Learn More</a></li>*/}
+                            <li><a href="#" className="button">Learn More</a></li>
                         </ul>
                     </section>
+                */}
 
                     <section id="two">
                         <h2 id="landscapes">Landscapes</h2>
