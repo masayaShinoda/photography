@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Footer from './Footer'
 import avatar from '../assets/images/avatar.jpg'
@@ -8,7 +9,7 @@ class Header extends React.Component {
         return (
             <header id="header">
                 <div className="inner">
-                    <a href="#" className="image avatar"><img src={avatar} alt="" /></a>
+                    <Link to="/" className="image avatar"><img src={avatar} alt="" /></Link>
                     <h1>
                         <strong>My name's Masaya,</strong>
                         <br />​ casual photographer from Cambodia.

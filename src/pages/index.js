@@ -5,6 +5,8 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
+import { Link } from 'gatsby'
+
 
 //landscape imports
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -79,7 +81,7 @@ class HomeIndex extends React.Component {
                         </header>
                         <p>Welcome to my site! Below you can find some of my works.
                             <br></br>
-                            Capturing photos of beautiful<a href="#portraits"> people</a> and beautiful <a href="#landscapes">scenery</a> have always brought me joy.
+                            Capturing photos of beautiful <Link to="/portraits">people</Link> and beautiful <Link to="/landscapes">scenery</Link> have always brought me joy.
                             <br></br>
                             Below, in no particular photo, are some of my favorite shots. Hope you like them!
                         </p>
@@ -148,7 +150,7 @@ class HomeIndex extends React.Component {
                                     </li>
                                     <li>
                                         <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="mailto:masayashida@gmail.com" target="_blank">masayashida@gmail.com</a>
+                                        <a href="mailto:masayashida@gmail.com" target="_blank" rel="noopener noreferrer">masayashida@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>
