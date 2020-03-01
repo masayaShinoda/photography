@@ -50,15 +50,16 @@ class HomeIndex extends React.Component {
         return (
             <Layout>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
                 </Helmet>
 
                 <div id="main">
 
                     <Navbar></Navbar>
+                    <h2 id="landscapes">Landscapes</h2>
+                    <p>Shots captured of places that deserve your attention.</p>
                     <section id="two">
-                        <h2 id="landscapes">Landscapes</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,

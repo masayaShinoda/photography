@@ -45,6 +45,11 @@
 
 /* Basic */
 
+	/* masaya code, image download restrict */
+	img {
+		pointer-events: none;
+	}
+
 	body {
 		background: _palette(bg);
 

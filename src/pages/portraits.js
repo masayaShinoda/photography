@@ -45,11 +45,10 @@ class HomeIndex extends React.Component {
                 <div id="main">
 
                     <Navbar></Navbar>
-
-
+                    <h2 id="portraits">Portraits</h2>
+                    <p>Beautiful people I've been fortunate enough to point my camera at.</p>
                     <section id="two">
 
-                        <h2 id="portraits">Portraits</h2>
 
                         <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
