@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
+import Navbar from '../components/navbar'
 
 import { Link } from 'gatsby'
 
@@ -73,6 +74,7 @@ class HomeIndex extends React.Component {
                     <section id="one">
                         <header className="major">
                             <h2>Photographer based in Phnom Penh, Cambodia.</h2>
+                            <Navbar></Navbar>
                         </header>
                         <p>Welcome to my site! Below you can find some of my works.
                             <br></br>
@@ -117,7 +119,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
-                        <h2>Get In Touch</h2>
+                        <h2 id="contact">Get In Touch</h2>
                         <p>Don't hesitate to leave me a message, we'll discuss ways to work together!</p>
                         <div className="row">
                             <div className="8u 12u$(small)">

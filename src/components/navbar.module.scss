@@ -1,0 +1,19 @@
+.nav-list {
+    display: flex;
+    list-style-type: none;    
+    padding: 0;
+        li {
+            padding: 0;
+        }        
+}
+.nav-item {
+    color: #999999;  
+    border-bottom: dotted 1px;
+    font-size: 1.25rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+    .active-nav-item {
+        color: #4C88B3;
+        border: none;
+    }

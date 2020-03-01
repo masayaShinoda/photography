@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
-
+import Navbar from '../components/navbar'
 
 //landscape imports
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -54,21 +54,8 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <div id="main">
-                {/*
-                    <section id="one">
 
-
-                        <header className="major">
-                            <h2>Photographer based in Phnom Penh, Cambodia.</h2>
-                        </header>
-
-
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
-                    </section>
-                */}
-
+                    <Navbar></Navbar>
                     <section id="two">
                         <h2 id="landscapes">Landscapes</h2>
 
@@ -88,7 +75,7 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
-                        <h2>Get In Touch</h2>
+                        <h2 id="contact">Get In Touch</h2>
                         <p>Don't hesitate to leave me a message, we'll discuss ways to work together!</p>
                         <div className="row">
                             <div className="8u 12u$(small)">
