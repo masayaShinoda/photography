@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 // contact me form, formspree.io
@@ -19,11 +20,14 @@ class HomeIndex extends React.Component {
                 </Helmet>
 
                 <div id="main">
-                    
                     <Navbar></Navbar>
-                    <section id="three">
+                    
+                    <section id="two">
                         <h2 id="contact">Get In Touch</h2>
                         <p>Don't hesitate to leave me a message, we'll discuss ways to work together!</p>
+                    </section>
+
+                    <section id="three">
                         <div className="row">
                             <div className="8u 12u$(small)">
                                 <MyForm>

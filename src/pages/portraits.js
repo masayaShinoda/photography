@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -44,14 +45,10 @@ class HomeIndex extends React.Component {
                 <div id="main">
 
                     <Navbar></Navbar>
+
+
                     <section id="two">
 
-                        {/*<ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>*/}
-
-                        {/* masaya code, portrait shots */}
-                        <br></br>
                         <h2 id="portraits">Portraits</h2>
 
                         <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({

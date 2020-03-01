@@ -452,7 +452,7 @@
 
 		&:before {
 			@include vendor('transition', 'opacity #{_duration(transition)} ease-in-out');
-			background: url('images/overlay.png');
+			/*background: url('images/overlay.png'); comment out to remove dark overlay */
 			border-radius: _size(border-radius);
 			content: '';
 			display: block;
