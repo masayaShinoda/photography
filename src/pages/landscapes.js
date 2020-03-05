@@ -16,6 +16,7 @@ import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
 import thumb07 from '../assets/images/thumbs/07.jpg'
 import thumb08 from '../assets/images/thumbs/08.jpg'
+import thumb09 from '../assets/images/thumbs/09.jpg'
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -25,6 +26,7 @@ import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 import full08 from '../assets/images/fulls/08.jpg'
+import full09 from '../assets/images/fulls/09.jpg'
 
 
 // contact me form, formspree.io
@@ -38,7 +40,8 @@ const DEFAULT_IMAGES = [
     { id: '5', source: full05, thumbnail: thumb05, caption: 'Seas', description: 'Kep, Cambodia.'},
     { id: '6', source: full06, thumbnail: thumb06, caption: 'Gates', description: 'Angkor Thom, Siem Reap, Cambodia.'},
     { id: '7', source: full07, thumbnail: thumb07, caption: 'Magnificent', description: 'Angkor Wat, Siem Reap, Cambodia.'},
-    { id: '8', source: full08, thumbnail: thumb08, caption: 'Forward', description: 'Kompot, Cambodia.'}
+    { id: '8', source: full08, thumbnail: thumb08, caption: 'Forward', description: 'Kompot, Cambodia.'},
+    { id: '9', source: full09, thumbnail: thumb09, caption: 'Waters', description: 'Angkor Thom, Siem Reap, Cambodia.'}
 ];
 
 class HomeIndex extends React.Component {
