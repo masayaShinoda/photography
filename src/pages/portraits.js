@@ -15,6 +15,8 @@ import thumbp03 from '../assets/images/thumbs/p03.jpg'
 import thumbp04 from '../assets/images/thumbs/p04.jpg'
 import thumbp05 from '../assets/images/thumbs/p05.jpg'
 import thumbp06 from '../assets/images/thumbs/p06.jpg'
+import thumbp07 from '../assets/images/thumbs/p07.jpg'
+import thumbp08 from '../assets/images/thumbs/p08.jpg'
 
 import fullp01 from '../assets/images/fulls/p01.jpg'
 import fullp02 from '../assets/images/fulls/p02.jpg'
@@ -22,6 +24,8 @@ import fullp03 from '../assets/images/fulls/p03.jpg'
 import fullp04 from '../assets/images/fulls/p04.jpg'
 import fullp05 from '../assets/images/fulls/p05.jpg'
 import fullp06 from '../assets/images/fulls/p06.jpg'
+import fullp07 from '../assets/images/fulls/p07.jpg'
+import fullp08 from '../assets/images/fulls/p08.jpg'
 
 // contact me form, formspree.io
 import MyForm from '../components/myform'
@@ -33,6 +37,8 @@ const PORTRAIT_IMAGES = [
     { id: 'p4', source: fullp04, thumbnail: thumbp04, caption: '', description: ''},
     { id: 'p5', source: fullp05, thumbnail: thumbp05, caption: '', description: ''},
     { id: 'p6', source: fullp06, thumbnail: thumbp06, caption: '', description: ''},
+    { id: 'p7', source: fullp07, thumbnail: thumbp07, caption: '', description: ''},
+    { id: 'p8', source: fullp08, thumbnail: thumbp08, caption: '', description: ''}
 ];
 
 class HomeIndex extends React.Component {
