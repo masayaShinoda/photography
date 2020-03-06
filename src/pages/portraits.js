@@ -55,7 +55,7 @@ class HomeIndex extends React.Component {
                     <p>Beautiful people I've been fortunate enough to point my camera at.</p>
                     <section id="two">
 
-
+                    <p>(Click to enlarge)</p>
                         <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,

@@ -64,6 +64,7 @@ class HomeIndex extends React.Component {
                     <p>Shots captured of places that deserve your attention.</p>
                     <section id="two">
 
+                    <p>(Click to enlarge)</p>
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,

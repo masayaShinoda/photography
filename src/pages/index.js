@@ -89,7 +89,7 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <h2 id="landscapes">Landscapes</h2>
-
+                        <p>(Click to enlarge)</p>
                         <Gallery images={DEFAULT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,
@@ -104,7 +104,7 @@ class HomeIndex extends React.Component {
                         {/* masaya code, portrait shots */}
                         <br></br>
                         <h2 id="portraits">Portraits</h2>
-
+                        <p>(Click to enlarge)</p>
                         <Gallery images={PORTRAIT_IMAGES.map(({ id, source, thumbnail, caption, description }) => ({
                             source,
                             thumbnail,
