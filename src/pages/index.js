@@ -67,6 +67,7 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <meta name="theme-color" content="#4C88B3"></meta>
                 </Helmet>
 
                 <div id="main">
