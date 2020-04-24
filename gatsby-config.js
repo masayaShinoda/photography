@@ -3,6 +3,7 @@ module.exports = {
     title: 'Masaya Photography',
     author: 'Masaya Shida',
     description: 'Welcome to my photography showcase!',
+    siteUrl: `https://masayaphoto.netlify.com`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -20,5 +21,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    `gatsby-plugin-advanced-sitemap`,
   ],
 }
