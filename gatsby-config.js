@@ -3,7 +3,7 @@ module.exports = {
     title: 'Masaya Photography',
     author: 'Masaya Shida',
     description: 'Welcome to my photography showcase!',
-    siteUrl: `https://masayaphoto.netlify.com`,
+    siteUrl: `https://photos.masayashida.xyz`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',

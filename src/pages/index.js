@@ -114,7 +114,7 @@ class HomeIndex extends React.Component {
               and beautiful <Link to="/landscapes">scenery</Link> have always
               brought me joy.
               <br></br>
-              Below, in no particular photo, are some of my favorite shots. Hope
+              Below, in no particular order, are some of my favorite shots. Hope
               you like them!
             </p>
             <ul className="actions">
