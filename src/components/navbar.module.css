@@ -1,0 +1,25 @@
+.nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list li {
+  padding: 0;
+}
+
+.nav-item {
+  color: #777777;
+  border-bottom: dotted 1px;
+  font-size: 1.125rem;
+  margin-right: 1.25rem;
+  text-decoration: none;
+}
+
+.active-nav-item {
+  color: #4C88B3;
+  border: none;
+}
+/*# sourceMappingURL=navbar.module.css.map */

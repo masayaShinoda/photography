@@ -29,11 +29,25 @@ import thumbp01 from '../assets/images/thumbs/p01.jpg'
 import thumbp02 from '../assets/images/thumbs/p02.jpg'
 import thumbp03 from '../assets/images/thumbs/p03.jpg'
 import thumbp04 from '../assets/images/thumbs/p04.jpg'
+import thumbp05 from '../assets/images/thumbs/p05.jpg'
+import thumbp06 from '../assets/images/fulls/p06.jpg'
+import thumbp07 from '../assets/images/fulls/p07.jpg'
+import thumbp08 from '../assets/images/fulls/p08.jpg'
+import thumbp09 from '../assets/images/fulls/p09.jpg'
+import thumbp10 from '../assets/images/fulls/p10.jpg'
+import thumbp11 from '../assets/images/fulls/p11.jpg'
 
 import fullp01 from '../assets/images/fulls/p01.jpg'
 import fullp02 from '../assets/images/fulls/p02.jpg'
 import fullp03 from '../assets/images/fulls/p03.jpg'
 import fullp04 from '../assets/images/fulls/p04.jpg'
+import fullp05 from '../assets/images/fulls/p05.jpg'
+import fullp06 from '../assets/images/fulls/p06.jpg'
+import fullp07 from '../assets/images/fulls/p07.jpg'
+import fullp08 from '../assets/images/fulls/p08.jpg'
+import fullp09 from '../assets/images/fulls/p09.jpg'
+import fullp10 from '../assets/images/fulls/p10.jpg'
+import fullp11 from '../assets/images/fulls/p11.jpg'
 
 // contac me form, formspree.io
 import MyForm from '../components/myform'
@@ -71,6 +85,13 @@ const DEFAULT_IMAGES = [
 
 const PORTRAIT_IMAGES = [
   {
+    id: 'p9',
+    source: fullp09,
+    thumbnail: thumbp09,
+    caption: '',
+    description: '',
+  },
+  {
     id: 'p1',
     source: fullp01,
     thumbnail: thumbp01,
@@ -81,6 +102,20 @@ const PORTRAIT_IMAGES = [
     id: 'p3',
     source: fullp03,
     thumbnail: thumbp03,
+    caption: '',
+    description: '',
+  },
+  {
+    id: 'p5',
+    source: fullp05,
+    thumbnail: thumbp05,
+    caption: '',
+    description: '',
+  },
+  {
+    id: 'p11',
+    source: fullp11,
+    thumbnail: thumbp11,
     caption: '',
     description: '',
   },
